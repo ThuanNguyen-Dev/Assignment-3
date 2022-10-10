@@ -1,0 +1,60 @@
+@media screen and (max-width: 991px) {
+  /* Banner */
+  .banner-description {
+    /* Canh chỉnh chữ ở giữa hình */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* chỉnh kiểu chữ */
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+  }
+  /* ABOUT */
+  #about {
+    padding: 40px 0;
+  }
+  .section-title {
+    padding: 20px 0px;
+  }
+  #target {
+    padding-right: 10px;
+  }
+  #personal-info {
+    padding-left: 10px;
+  }
+
+  /* JOB-INFO */
+  .col-8 > h1 {
+    padding: 25px 0px;
+  }
+  .layout-description {
+    padding: 0px 10px;
+  }
+  .description {
+    margin-left: 0px;
+  }
+  .desc-body {
+    padding-left: 20px;
+  }
+
+  .col-lg-7 > .card-body {
+    padding-top: 0px;
+  }
+
+  .col-md-4 > span {
+    margin-left: 2.9px;
+  }
+
+  .container {
+    padding: 0 !important;
+  }
+  li.user-info {
+    display: none;
+  }
+  .card-body {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+/* On screens that are 767px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 767px) {
+  #nav-bar {
+    text-align: left;
+  }
+  .nav li {
+    float: none;
+    width: 100%;
+  }
+  #target {
+    padding-left: 10px;
+  }
+  #about > .container {
+    padding: 60px 20px;
+  }
+  .border-end {
+    border-right: none !important;
+  }
+  #icon-hobby {
+    padding: 0 20px;
+    text-align: justify;
+  }
+  .col-md-4,
+  .col-lg-5 {
+    padding-bottom: 10px;
+  }
+  .col-md-4 > span {
+    text-align: justify !important;
+  }
+  ul > li > div:last-child {
+    display: none !important;
+  }
+}

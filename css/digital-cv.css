@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: blue;
+  height: auto;
+}
+.card {
+  border-radius: 0% !important;
+  margin-bottom: 20px;
+}
+.gach-chan {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    height: auto !important;
+  }
+}
